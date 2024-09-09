@@ -18,7 +18,7 @@ def number_guessing_game():
             continue
         attempts += 1
         if user_guess == number_to_guess:
-            print("Congratulations! You found the number in {} attempts.".format(attempts))
+            print(" yay Congratulations! You found the number in {} attempts.".format(attempts))
             break
         elif user_guess < number_to_guess:
             print("Too low! Try again.")
